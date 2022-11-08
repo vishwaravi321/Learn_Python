@@ -1,4 +1,4 @@
-
+#this code is to clearify that dict and list are of same type until the elements are assingned 
 
 obj = []
 
@@ -6,7 +6,6 @@ obj = []
 
 def List():
     print("So List it is!!!!!!!!!!")
-    print(type(obj))
     print(obj)
 
     print("adding elements to the list")
@@ -42,14 +41,15 @@ def List():
     obj.pop()
     print(obj)
     print(type(obj))
-
-
+    
 def Dictionary():
+
     print("So Dictionary it is!!!!!!!!!")
     
     obj = {'name': 'Vishwa', 'age': '21'}
     print(obj)
     print(type(obj))
+
 
 
 choice = input("What is your Choice of object(List/Dictionary):")
@@ -61,6 +61,13 @@ elif (choice == "List"):
 else:
     print("Hey Dude please select from those two,Don't be a douche bag...")
 
-        
+
+
+
+print("After Conditions:")
+
+print(type(obj))
+
+
         
 
