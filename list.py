@@ -3,6 +3,7 @@ print("Lists are mutable objects which means it can be manipulatd after creation
 
 nums = []
 
+print(type(nums))
 print(nums)
 
 print("adding elements to the list")
