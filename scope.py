@@ -58,11 +58,11 @@ if (choice == "Dictionary"):
 elif (choice == "List"):
     List()
 else:
-    print("Hey Dude please select from those two,Don't be a douche bag...")
+    print("Hey Dude please select from those two(List/Dictionary),Don't be a douche bag...")
 
 
-
-
-print("After Conditions:")
-
-print(type(obj))
+if (choice == "List") or (choice == "Dictionary"):
+    print("After Conditions:")
+    print(type(obj))
+else:
+    pass
