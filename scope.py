@@ -1,4 +1,3 @@
-#this code is to clearify that dict and list are of same type until the elements are assingned 
 
 obj = []
 
@@ -21,7 +20,7 @@ def List():
     print("Printing specific elements from the string")
 
     print("First element of the list:")
-    print(obj[0])  
+    print(obj[0])
 
     print("Second element of the list:")
     print(obj[1])
@@ -41,11 +40,11 @@ def List():
     obj.pop()
     print(obj)
     print(type(obj))
-    
+
 def Dictionary():
 
     print("So Dictionary it is!!!!!!!!!")
-    
+
     obj = {'name': 'Vishwa', 'age': '21'}
     print(obj)
     print(type(obj))
@@ -67,7 +66,3 @@ else:
 print("After Conditions:")
 
 print(type(obj))
-
-
-        
-
