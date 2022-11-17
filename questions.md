@@ -1,8 +1,9 @@
-[08/11/22] sir please see obj.py and justify.py and clear my doubt
-
+[17/11/22]
 Doubt:
-	
-	in obj.py the type of obj at final is list and in justify.py it is dict.
+	 
+	does pop eliminates lastly added item in list or from the last index.
+
+
 
 
 

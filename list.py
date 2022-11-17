@@ -1,8 +1,8 @@
 print("Lists are mutable objects which means it can be manipulatd after creation")
 
 
-nums = []
-
+nums = [21,3.45]
+    
 print(type(nums))
 print(nums)
 
@@ -39,3 +39,12 @@ print(nums)
 nums.pop()
 print(nums)
 
+my = ['a']
+print("list my",my)
+
+my.extend(nums)
+print("list my",my)
+
+my.insert(0,45)
+my.insert(5,45) # similiar to .append but we can choose the index we want to add
+print("list my",my)
