@@ -1,9 +1,17 @@
 
 
-def sum(a,b):
-    return a+b
+def sum(a,b = 5):
+    print(a+b)
 
-x = int(input("a:"))
-y = int(input("b:"))
 
-print(sum(x,y))
+def student(name,college = 'ssa'):
+    print(f"{name} is from {college}")
+
+sum(3,10)
+
+student('vishwa','ceg')
+
+
+
+
+
