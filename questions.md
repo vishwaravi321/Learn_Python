@@ -2,7 +2,7 @@
 
 sir please see built_in_fucs_ds.py and answer my questions:
 
-- if i directly print list(zip(day,muscle)) it gives me output in list format, same goes for all iterators.
+- if i directly print list(zip(day,muscle)) it gives me output in list format, same goes for all iterations.
 - but on line 13 I printed it as list first.
 - then dictionary and the tuple.
 - if i run this program it gives `data` as list format, after that it prints empty dict and tuple.

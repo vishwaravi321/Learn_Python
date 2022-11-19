@@ -16,4 +16,9 @@ print(dict(data)) # Printing as dictionary...
 print("Printing as tuple")
 print(tuple(data)) # Printing as tuple...
 
-
+print("Printing as list:")
+print(list(zip(day,muscle_group)))
+print("Printing as Dict:")
+print(dict(zip(day,muscle_group)))
+print("Printing as tuple:")
+print(tuple(zip(day,muscle_group)))
