@@ -18,7 +18,7 @@ time = datetime.datetime.now().time()
 
 conDate = dateConvertion(input("Enter Date in 'dd-mm-2022':"))
 
-compareDates(date,conDate,time,)
+compareDates(date,conDate,time)
 
 
 
